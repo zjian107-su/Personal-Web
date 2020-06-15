@@ -1,4 +1,5 @@
 # ❤️ Personal Website Using GatsbyJS
+[![Netlify Status](https://api.netlify.com/api/v1/badges/b4824d9c-84bc-498c-8920-26b4b015155c/deploy-status)](https://app.netlify.com/sites/danielzezhengjiang/deploys)
  
 ## Dev Notes
 
@@ -47,5 +48,18 @@ const Component = () => {
 
 ---
 
+## Hosting & DNS
+Domain Name: danielzezhengjiang.com, www.danielzezhengjiang.com
+Domain Registrar: NameCheap(NC)
+Web Hosting and DNS: Netlify(Free)
+
+## ChangeLog
+0614
+  1. Finished the whole website development. Purchased the domain danielzezhengjiang.com from NameCheap. Deployed the web on Netlify.
+  2. Updated content such as social links(FB, TW, GH, GH) 
+
+0615
+  1. Updated all info in the website.
+  2. Netlify CLI deploy
 
 

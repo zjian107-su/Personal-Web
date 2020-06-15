@@ -5,18 +5,18 @@ export default [
     id: 1,
     icon: <FaCode className="service-icon" />,
     title: "web development",
-    text: `I'm baby meditation tofu chillwave, distillery messenger bag thundercats chicharrones kale chips gochujang. Banh mi direct trade marfa salvia.`,
+    text: `web content development, client-side/server-side scripting.`,
   },
   {
     id: 2,
     icon: <FaSketch className="service-icon" />,
     title: "web design",
-    text: `I'm baby meditation tofu chillwave, distillery messenger bag thundercats chicharrones kale chips gochujang. Banh mi direct trade marfa salvia.`,
+    text: `planning, building architecture, arranging content.`,
   },
   {
     id: 3,
     icon: <FaAndroid className="service-icon" />,
     title: "app design",
-    text: `I'm baby meditation tofu chillwave, distillery messenger bag thundercats chicharrones kale chips gochujang. Banh mi direct trade marfa salvia.`,
+    text: `user interface (UI) and user experience (UX)`,
   },
 ]
