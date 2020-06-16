@@ -1,6 +1,7 @@
 # ❤️ Personal Website Using GatsbyJS
+
 [![Netlify Status](https://api.netlify.com/api/v1/badges/b4824d9c-84bc-498c-8920-26b4b015155c/deploy-status)](https://app.netlify.com/sites/danielzezhengjiang/deploys)
- 
+
 ## Dev Notes
 
 1. Use main.css to control the overall CSS
@@ -13,8 +14,6 @@ const Component = () => {
   return <FaHome className="icon"></FaHome>
 }
 ```
-
-
 
 4. Use constants to avoid repetition.
 
@@ -37,29 +36,44 @@ const Component = () => {
       },
     },
 ```
+
 7. Used Strapi CMS to manage content, including projects, blogs sections and pages. Portfolio-API Strapi project uses port [1337 Admin](http://localhost:1337/admin). And it has cloudinary extenion so the image URLs are not localhost:1337 but a reference to cloudinary.
 
 8. The hardest part of the project is layers, such as:
-  > Layout > Projects > Project.
-  > 
-  > Projects.js component, Project.js conponent, project.js page.
+
+   > Layout > Projects > Project.
+   >
+   > Projects.js component, Project.js conponent, project.js page.
 
 9. Overall CSS is set in `gatsby-browser.js`; Create page for blogs takes place by `gatsby-node.js`; Plugins is controlled and configured in `gatsby-config.js`
 
 ---
 
 ## Hosting & DNS
+
 Domain Name: danielzezhengjiang.com, www.danielzezhengjiang.com
 Domain Registrar: NameCheap(NC)
 Web Hosting and DNS: Netlify(Free)
 
 ## ChangeLog
+
 0614
-  1. Finished the whole website development. Purchased the domain danielzezhengjiang.com from NameCheap. Deployed the web on Netlify.
-  2. Updated content such as social links(FB, TW, GH, GH) 
+
+1. Finished the whole website development. Purchased the domain danielzezhengjiang.com from NameCheap. Deployed the web on Netlify.
+2. Updated content such as social links(FB, TW, GH, GH)
 
 0615
-  1. Updated all info in the website.
-  2. Netlify CLI deploy
 
+1. Updated all info in the website.
+2. Netlify CLI deploy
+3. Need to be improved:
 
+# TODOTODO
+
+     1. Remove opacity change effect. Unnecessary
+     2. `Experience` resume section alighment issue
+     3. `Project` demo section text "justify" issue
+     4. `Project` demo section, stack alignment issue - PHP overlays with HTML
+     5. Try to remove "-" in the `Hero` section
+     6. Nav bar order - about should move to the last, the project should be the first
+     7. Reduce the blue background area in the hero-img

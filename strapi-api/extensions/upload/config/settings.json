@@ -1,0 +1,8 @@
+{
+  "provider": "cloudinary",
+  "providerOptions": {
+    "cloud_name": "danieljc8888",
+    "api_key": "732683177442511",
+    "api_secret": "-up8i0MD7jXG8-1rkBDj5XADbc0"
+  }
+}
