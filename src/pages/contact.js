@@ -1,12 +1,15 @@
 import React from "react"
 import Layout from "../components/Layout"
+import SEO from "../components/SEO"
 
 const contact = () => {
   return (
     <Layout>
+      <SEO title="Contact" description="contact webdev" />
       <section className="contact-page">
         <article className="contact-form">
           <h3>get in touch</h3>
+          {/* It uses Formspree to handle backend message */}
           <form action="https://formspree.io/xrgykjgo" method="POST">
             <div class="form-group">
               <input

@@ -6,6 +6,7 @@ import Services from "../components/Services"
 import Jobs from "../components/Jobs"
 import Projects from "../components/Projects"
 import Blogs from "../components/Blogs"
+import SEO from "../components/SEO"
 
 // This page used page query becasue 'projects section'
 // and 'project page' both use the same component but actually
@@ -16,10 +17,11 @@ export default ({ data }) => {
     allStrapiBlogs: { nodes: blogs },
   } = data
 
-  console.log(data)
+  // console.log(data)
 
   return (
     <Layout>
+      <SEO title="Home" description="portfolio website home page" />
       <Hero />
       <Services />
       <Jobs />

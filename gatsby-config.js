@@ -8,16 +8,17 @@ module.exports = {
   siteMetadata: {
     title: "WebDev Portfolio",
     description: "This is WebDev Portfolio Site",
-    author: "@webdev",
-    twitterUsername: "@john_smilga",
+    author: "@Daniel",
+    twitterUsername: "@Danieljc8888",
     image: "/twitter-img.png",
-    siteUrl: "https://testing-strapi-gatsby-build.netlify.app",
+    siteUrl: "https://danielzezhengjiang.com/",
   },
   plugins: [
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sitemap`,
+    `gatsby-plugin-offline`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -50,6 +51,18 @@ module.exports = {
             family: `Open Sans`,
           },
         ],
+      },
+    },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Daniel Jiang's Personal Site`,
+        short_name: `Daniel Jiang's Site`,
+        start_url: `/`,
+        background_color: `#ffffff`,
+        theme_color: `#0e7c86`,
+        display: `standalone`,
+        icon: `src/assets/icon.png`,
       },
     },
   ],

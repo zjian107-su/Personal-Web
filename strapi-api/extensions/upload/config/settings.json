@@ -1,3 +1,4 @@
+// Strapi uses Cloudinary to handle blog content image external link
 {
   "provider": "cloudinary",
   "providerOptions": {

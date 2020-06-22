@@ -62,18 +62,19 @@ Web Hosting and DNS: Netlify(Free)
 1. Finished the whole website development. Purchased the domain danielzezhengjiang.com from NameCheap. Deployed the web on Netlify.
 2. Updated content such as social links(FB, TW, GH, GH)
 
-0615
+0615-0618
 
 1. Updated all info in the website.
 2. Netlify CLI deploy
 3. Need to be improved:
+   1. [x] Remove opacity change effect. Unnecessary
+   2. [x] add stacks into the `Services` section
+   3. [x] `Experience` section alighment issue
+   4. [x] `Project` demo section text "justify" issue, and changed the word-spacing
+   5. [x] `Project` demo section, stack alignment issue - PHP overlays with HTML. Addded margin-buttom 0.5rem.
+   6. [x] Nav bar order - about should move to the last, the project should be the first
+   7. [x] Reduce the blue background area in the hero-img
+   8. [x] Add favicon, plugin menifest and plugin offline
 
-# TODOTODO
-
-     1. Remove opacity change effect. Unnecessary
-     2. `Experience` resume section alighment issue
-     3. `Project` demo section text "justify" issue
-     4. `Project` demo section, stack alignment issue - PHP overlays with HTML
-     5. Try to remove "-" in the `Hero` section
-     6. Nav bar order - about should move to the last, the project should be the first
-     7. Reduce the blue background area in the hero-img
+0622 
+- SEO optimization  
